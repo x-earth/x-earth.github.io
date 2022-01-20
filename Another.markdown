@@ -12,3 +12,4 @@ Playing mysql with pure ip:
 
 [wordpress-test]: http://47.107.184.201/wordpress/
 [mysql-test]: http://47.107.184.201/phpmyadmin/
+[毒鸡汤]: http://47.107.184.201/nows/
