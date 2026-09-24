@@ -1,2 +1,6 @@
-
+local.html
+local.js
+local.css
+local_server.py
 .local-data/
+__pycache__/
