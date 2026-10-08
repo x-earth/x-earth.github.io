@@ -16,3 +16,6 @@ body{background:radial-gradient(circle at 75% 0,#173157 0,#09111f 40%);color:var
 @media(max-width:720px){.main{padding:26px 16px}.sidebar{padding:14px}}
 
 .file-tool{display:grid;gap:16px}.file-inputs{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.file-inputs textarea{min-height:300px}.field-heading{display:flex;align-items:baseline;justify-content:space-between;gap:12px}.result-field{gap:6px}.result-field textarea{min-height:210px;resize:vertical}@media(max-width:720px){.file-inputs{grid-template-columns:1fr}.file-inputs textarea{min-height:190px}}
+
+/* 日历工具栏需覆盖全局 select 的 width: 100%，避免挤压“返回今天”按钮。 */
+.calendar-toolbar .select-like{width:auto;flex:0 0 auto}.calendar-toolbar #calendar-year{width:130px}.calendar-toolbar #calendar-month{width:100px}.calendar-toolbar .today-btn{flex:0 0 auto;white-space:nowrap}
